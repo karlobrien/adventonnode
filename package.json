@@ -1,0 +1,27 @@
+{
+  "name": "adventonnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlobrien/adventonnode.git"
+  },
+  "author": "Karl O'Brien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlobrien/adventonnode/issues"
+  },
+  "homepage": "https://github.com/karlobrien/adventonnode#readme",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
